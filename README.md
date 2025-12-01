@@ -145,3 +145,4 @@ ea-workspace/
          ├─ NotionView.tsx
          ├─ TutorView.tsx
          └─ McqPracticeView.tsx       # new MCQ practice prototype
+# ea-workspace
