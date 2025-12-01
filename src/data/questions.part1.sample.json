@@ -1,0 +1,197 @@
+[
+  {
+    "id": "P1-Q001",
+    "part": "PART1_INDIVIDUALS",
+    "topicId": "P1-FILING-STATUS",
+    "subtopicId": "GENERAL-RULES",
+    "stem": "Alex and Jordan are married and lived together all year. Both have wage income. They prefer to keep their finances separate and ask if they can each file using the Single filing status. Which filing status options are generally available to them if they file a timely return and do not qualify for any special circumstances?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "Single or Head of Household.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "Single only.",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Married Filing Jointly or Married Filing Separately.",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Head of Household only, as long as each pays more than half of their own support.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "If a couple is legally married on the last day of the tax year and does not qualify as considered unmarried, their standard filing status options are Married Filing Jointly or Married Filing Separately, not Single or Head of Household.",
+    "difficulty": "EASY",
+    "source": "BUILT_IN",
+    "tags": ["filing status", "individuals", "marriage"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P1-Q002",
+    "part": "PART1_INDIVIDUALS",
+    "topicId": "P1-DEPENDENTS",
+    "subtopicId": "QUALIFYING-CHILD",
+    "stem": "Taylor, age 30 and single, provides more than half of the support for their 8-year-old niece, who lived with Taylor all year and is a U.S. citizen. The niece had no gross income. Taylor's sister, the child’s parent, also lived in the home but did not provide support. Which of the following is true regarding the niece’s dependency status?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "The niece can qualify as Taylor’s qualifying child because of the relationship and residency tests.",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "The niece cannot be claimed by anyone because her parent also lived in the home.",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "The niece can be claimed as Taylor’s qualifying relative only, not a qualifying child.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "The niece must file her own return and claim herself as a dependent.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "A niece can be a qualifying child if the relationship, age, residency, support, and joint return tests are met. Here, she meets the tests to be Taylor’s qualifying child, assuming no one else with a higher priority claim claims her.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["dependents", "qualifying child", "support test"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P1-Q003",
+    "part": "PART1_INDIVIDUALS",
+    "topicId": "P1-GROSS-INCOME",
+    "subtopicId": "TAXABLE-VS-NONTAXABLE",
+    "stem": "Which of the following items is generally included in gross income for federal income tax purposes?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "Employer-provided group term life insurance coverage of $40,000.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "A gift of $5,000 received from a relative.",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Lottery winnings of $2,500.",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Qualified scholarship amounts used for tuition and required course materials.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "Lottery winnings are generally fully taxable and included in gross income. Certain employer-provided insurance up to a threshold, gifts, and qualified scholarships used for tuition and required materials are generally excluded.",
+    "difficulty": "EASY",
+    "source": "BUILT_IN",
+    "tags": ["gross income", "taxable income", "exclusions"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P1-Q004",
+    "part": "PART1_INDIVIDUALS",
+    "topicId": "P1-DEDUCTIONS",
+    "subtopicId": "STANDARD-VS-ITEMIZED",
+    "stem": "Jordan, a single taxpayer, has the following for the year: state income tax paid of $4,000, real estate tax of $3,000 on a personal residence, home mortgage interest of $6,000 on acquisition debt, and charitable cash contributions of $2,000. Jordan has no other itemized deductions. Which of the following is correct?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "Jordan must claim the standard deduction and cannot itemize.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "Jordan’s total itemized deductions are limited by a $5,000 cap on state and local taxes.",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Jordan’s state and local tax deduction is limited by the SALT cap, but mortgage interest and charitable contributions are not subject to that cap.",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Mortgage interest is fully disallowed if the taxpayer also claims the standard deduction.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "State and local tax deductions (income or sales plus property tax) are generally limited by an overall SALT cap. However, that limitation does not apply to qualified mortgage interest or charitable contributions. The taxpayer can compare total itemized deductions to the standard deduction to decide which to claim.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["itemized deductions", "SALT cap", "mortgage interest", "charitable contributions"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P1-Q005",
+    "part": "PART1_INDIVIDUALS",
+    "topicId": "P1-CREDITS",
+    "subtopicId": "CHILD-AND-DEPENDENT-CARE",
+    "stem": "Morgan pays $5,000 in qualified childcare expenses so they can work full time. Morgan is single and has one qualifying child under age 13. Morgan’s earned income is $60,000 and there are no employer-provided dependent care benefits. Which of the following best describes how these expenses may benefit Morgan’s tax situation?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "The expenses are fully deductible as an above-the-line adjustment to income.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "The expenses may qualify for the child and dependent care credit, subject to applicable percentage and dollar limitations.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "The expenses are deductible only as itemized miscellaneous deductions subject to a 2% AGI floor.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "The expenses are nondeductible personal living expenses with no potential tax benefit.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Qualified childcare expenses incurred so the taxpayer can work may be eligible for the child and dependent care credit, which is calculated as a percentage of qualifying expenses up to statutory limits, rather than as an above-the-line or itemized deduction.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["credits", "child and dependent care", "individuals"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  }
+]

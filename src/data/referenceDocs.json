@@ -1,0 +1,68 @@
+[
+  {
+    "id": "REF-FORM-1040",
+    "title": "Form 1040, U.S. Individual Income Tax Return",
+    "refCode": "Form 1040",
+    "description": "Primary individual income tax return used for federal income tax filing.",
+    "type": "FORM",
+    "parts": ["PART1_INDIVIDUALS"],
+    "topicIds": ["P1-FILING-STATUS", "P1-GROSS-INCOME", "P1-DEDUCTIONS", "P1-CREDITS"],
+    "url": "https://www.irs.gov/forms-pubs/about-form-1040",
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "REF-PUB-17",
+    "title": "Publication 17, Your Federal Income Tax",
+    "refCode": "Pub 17",
+    "description": "Comprehensive guide to individual income tax rules, including income, deductions, and credits.",
+    "type": "PUBLICATION",
+    "parts": ["PART1_INDIVIDUALS"],
+    "topicIds": ["P1-GROSS-INCOME", "P1-DEDUCTIONS", "P1-CREDITS"],
+    "url": "https://www.irs.gov/forms-pubs/about-publication-17",
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "REF-PUB-334",
+    "title": "Publication 334, Tax Guide for Small Business",
+    "refCode": "Pub 334",
+    "description": "Tax guide for small businesses, including sole proprietorships and certain pass-through entities.",
+    "type": "PUBLICATION",
+    "parts": ["PART2_BUSINESS"],
+    "topicIds": ["P2-BUSINESS-DEDUCTIONS", "P2-DEPRECIATION"],
+    "url": "https://www.irs.gov/forms-pubs/about-publication-334",
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "REF-PUB-463",
+    "title": "Publication 463, Travel, Gift, and Car Expenses",
+    "refCode": "Pub 463",
+    "description": "Explains which travel, gift, and transportation expenses are deductible.",
+    "type": "PUBLICATION",
+    "parts": ["PART1_INDIVIDUALS", "PART2_BUSINESS"],
+    "topicIds": ["P1-DEDUCTIONS", "P2-BUSINESS-DEDUCTIONS"],
+    "url": "https://www.irs.gov/forms-pubs/about-publication-463",
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "REF-CIRC-230",
+    "title": "Treasury Department Circular No. 230",
+    "refCode": "Circular 230",
+    "description": "Regulations governing practice before the Internal Revenue Service.",
+    "type": "PUBLICATION",
+    "parts": ["PART3_REPRESENTATION"],
+    "topicIds": ["P3-REPRESENTATION-BASICS", "P3-DUE-DILIGENCE", "P3-PRACTICE-LIMITATIONS"],
+    "url": "https://www.irs.gov/tax-professionals/circular-230-tax-professionals",
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "REF-PUB-594",
+    "title": "Publication 594, The IRS Collection Process",
+    "refCode": "Pub 594",
+    "description": "Overview of the IRS collection process and taxpayer options.",
+    "type": "PUBLICATION",
+    "parts": ["PART3_REPRESENTATION"],
+    "topicIds": ["P3-COLLECTIONS"],
+    "url": "https://www.irs.gov/forms-pubs/about-publication-594",
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  }
+]

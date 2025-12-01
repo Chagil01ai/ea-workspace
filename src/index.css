@@ -1,0 +1,34 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+/* Custom Gantt delay utilities */
+@layer utilities {
+  .gantt-delay-0 {
+    animation-delay: 0ms;
+  }
+  .gantt-delay-1 {
+    animation-delay: 120ms;
+  }
+  .gantt-delay-2 {
+    animation-delay: 240ms;
+  }
+  .gantt-delay-3 {
+    animation-delay: 360ms;
+  }
+  .gantt-delay-4 {
+    animation-delay: 480ms;
+  }
+}

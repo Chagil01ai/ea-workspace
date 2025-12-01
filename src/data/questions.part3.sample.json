@@ -1,0 +1,197 @@
+[
+  {
+    "id": "P3-Q001",
+    "part": "PART3_REPRESENTATION",
+    "topicId": "P3-REPRESENTATION-BASICS",
+    "subtopicId": "CIRCULAR-230",
+    "stem": "An enrolled agent is preparing to represent a taxpayer before the IRS regarding an examination of a prior-year individual return. Which of the following is a requirement under Circular 230 for the enrolled agent in this situation?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "Obtain a new engagement letter for every IRS contact, including each phone call.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "Confirm that a valid power of attorney or other written authorization has been properly executed by the taxpayer.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Notify the IRS in writing that the practitioner intends to withdraw if the examination is not closed within 180 days.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Advise the taxpayer that the practitioner is prohibited from discussing any issues raised in the exam until the notice of deficiency is issued.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Under Circular 230 and IRS practice rules, an enrolled agent must ensure that there is proper written authorization to represent the taxpayer, typically on Form 2848, before dealing with the IRS on the taxpayer's behalf.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["representation", "Circular 230", "Form 2848"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P3-Q002",
+    "part": "PART3_REPRESENTATION",
+    "topicId": "P3-DUE-DILIGENCE",
+    "subtopicId": "PREPARER-DUTIES",
+    "stem": "A practitioner prepares a return that claims a refundable credit based entirely on information provided by the taxpayer. Which of the following best describes the practitioner's due diligence requirement?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "The practitioner may always rely exclusively on the taxpayer’s oral statements without any further inquiry.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "The practitioner must make reasonable inquiries if the taxpayer’s information appears incomplete, inconsistent, or incorrect.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "The practitioner must independently verify every fact by obtaining third-party documentation in all cases.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "The practitioner has no due diligence obligations if the taxpayer signs the return declaring it is true and correct.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Due diligence rules require the practitioner to make reasonable inquiries if the information furnished by the taxpayer appears incomplete, inconsistent, or incorrect. Full independent verification is not required unless there are red flags.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["due diligence", "preparer responsibility", "credits"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P3-Q003",
+    "part": "PART3_REPRESENTATION",
+    "topicId": "P3-PENALTIES",
+    "subtopicId": "PREPARER-PENALTIES",
+    "stem": "A paid return preparer takes a position on a return that has a realistic possibility of being sustained on its merits but is not disclosed on the return. Under the preparer penalty rules, when is disclosure required to avoid the substantial understatement penalty?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "Only when the position is frivolous.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "When the position is not supported by substantial authority and the preparer wants to reduce penalty exposure.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Whenever the taxpayer's refund exceeds $5,000.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Disclosure is never relevant to preparer penalties.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "If a position does not have substantial authority, disclosure can reduce exposure to the substantial understatement penalty so long as the position is not frivolous and is reasonably based.",
+    "difficulty": "HARD",
+    "source": "BUILT_IN",
+    "tags": ["preparer penalties", "disclosure", "positions"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P3-Q004",
+    "part": "PART3_REPRESENTATION",
+    "topicId": "P3-COLLECTIONS",
+    "subtopicId": "INSTALLMENT-AGREEMENTS",
+    "stem": "A taxpayer owes $18,000 in individual income tax and cannot fully pay the liability when due. They can pay about $400 per month. Which of the following is generally the most appropriate initial collection alternative for the practitioner to consider?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "Submitting an offer in compromise based on doubt as to liability.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "Requesting a temporary delay of collection by marking the account as currently not collectible without providing any financial information.",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Requesting an installment agreement that fully pays the liability over time.",
+        "isCorrect": true
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Instructing the taxpayer not to contact the IRS and to wait until the collection statute expires.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "C",
+    "explanation": "When the taxpayer can make regular monthly payments that will fully pay the balance within an acceptable period, a full-pay installment agreement is typically the most appropriate initial collection alternative.",
+    "difficulty": "EASY",
+    "source": "BUILT_IN",
+    "tags": ["collections", "installment agreement", "representation"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P3-Q005",
+    "part": "PART3_REPRESENTATION",
+    "topicId": "P3-PRACTICE-LIMITATIONS",
+    "subtopicId": "CONFLICTS-OF-INTEREST",
+    "stem": "A practitioner is asked to represent both spouses in an IRS examination of a joint return. During the initial interview, the practitioner becomes aware that the spouses have conflicting interests regarding a potential innocent spouse claim. Which of the following actions best complies with Circular 230?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "Continue to represent both spouses as long as each pays an equal share of the fee.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "Disclose the conflict of interest, obtain informed written consent from each spouse if representation of both is still reasonable, or withdraw from representing one or both spouses if the conflict cannot be managed.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Immediately withdraw from representation and notify the IRS that the taxpayer has committed fraud.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Ignore the conflict because a joint return must be defended jointly.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Circular 230 requires practitioners to address conflicts of interest. If representation of multiple clients is still reasonable, the practitioner must obtain informed written consent from each client. If the conflict cannot be managed, the practitioner should withdraw from representing one or more clients.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["conflicts of interest", "Circular 230", "representation"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  }
+]

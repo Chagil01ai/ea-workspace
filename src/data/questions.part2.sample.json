@@ -1,0 +1,197 @@
+[
+  {
+    "id": "P2-Q001",
+    "part": "PART2_BUSINESS",
+    "topicId": "P2-ENTITY-CHOICE",
+    "subtopicId": "BASIC-TYPES",
+    "stem": "Which of the following is generally true regarding how different business entities are taxed for federal income tax purposes?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "A C corporation is a pass-through entity that does not pay its own federal income tax.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "An S corporation generally passes its income, losses, deductions, and credits through to its shareholders, subject to certain limitations.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "A sole proprietorship must always file a separate federal income tax return from the owner.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "A partnership’s income is taxed twice: once at the entity level and again when distributed to partners.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "An S corporation is generally treated as a pass-through entity in which items of income, deduction, and credit flow through to shareholders, subject to eligibility and limitation rules. C corporations are subject to entity-level tax, and sole proprietorship income is reported directly on the owner's individual return.",
+    "difficulty": "EASY",
+    "source": "BUILT_IN",
+    "tags": ["business entities", "S corporation", "pass-through"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P2-Q002",
+    "part": "PART2_BUSINESS",
+    "topicId": "P2-DEPRECIATION",
+    "subtopicId": "MACRS",
+    "stem": "A calendar-year business purchases and places in service new 5-year MACRS property on July 1 of the current year. The business does not claim bonus depreciation or section 179. Under the general depreciation system and half-year convention, which of the following best describes the first-year depreciation?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "A full 12 months of depreciation is allowed in the first year regardless of the convention.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "One-half year of depreciation is allowed in the first year based on the appropriate 5-year MACRS percentage.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "No depreciation is allowed in the first year; it begins in the second year.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "The allowed depreciation is always prorated based on the exact number of days the asset was in service.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Under the half-year convention for 5-year MACRS property, the first year is treated as if the property were placed in service in the middle of the year, resulting in a half year of depreciation using the applicable MACRS percentage.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["depreciation", "MACRS", "business assets"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P2-Q003",
+    "part": "PART2_BUSINESS",
+    "topicId": "P2-PARTNERSHIPS",
+    "subtopicId": "BASIS-AND-LIABILITIES",
+    "stem": "Partner A contributes $20,000 cash to a partnership in exchange for a 50% interest. Partner B contributes depreciable property with an adjusted basis of $10,000 and a fair market value of $20,000, also for a 50% interest. The partnership has no liabilities immediately after formation. What is Partner B’s initial outside basis in the partnership interest?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "$10,000",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "$20,000",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "$30,000",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "$0, because no gain is recognized on contribution.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "A partner’s initial outside basis in a partnership interest is generally the adjusted basis of property contributed plus any cash contributed. Here, Partner B’s basis is the adjusted basis of the contributed property, $10,000.",
+    "difficulty": "MEDIUM",
+    "source": "BUILT_IN",
+    "tags": ["partnership basis", "contributions", "formation"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P2-Q004",
+    "part": "PART2_BUSINESS",
+    "topicId": "P2-SCORP",
+    "subtopicId": "SHAREHOLDER-BASIS",
+    "stem": "An S corporation shareholder has a stock basis of $30,000 at the beginning of the year. During the year, the shareholder’s share of S corporation items includes $15,000 of ordinary income, $2,000 of tax-exempt income, and a $40,000 distribution. There are no other adjustments. What is the shareholder’s stock basis at the end of the year?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "$7,000",
+        "isCorrect": true
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "$0, and the entire distribution is taxable.",
+        "isCorrect": false
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "$5,000, and none of the distribution is taxable.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "$47,000",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "A",
+    "explanation": "Stock basis in an S corporation is increased by income items (including tax-exempt income) and decreased by distributions (to the extent of basis) before considering losses. Beginning basis $30,000 + $15,000 ordinary income + $2,000 tax-exempt income = $47,000 adjusted basis, then minus the $40,000 distribution leaves $7,000 basis.",
+    "difficulty": "HARD",
+    "source": "BUILT_IN",
+    "tags": ["S corporation", "shareholder basis", "distributions"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "P2-Q005",
+    "part": "PART2_BUSINESS",
+    "topicId": "P2-BUSINESS-DEDUCTIONS",
+    "subtopicId": "ORDINARY-AND-NECESSARY",
+    "stem": "A small consulting business incurs the following expenses: ordinary advertising costs, penalties paid to a government agency for late filing of a required report, and reasonable wages paid to the owner’s adult child for actual work performed. Which of the following statements is generally correct?",
+    "options": [
+      {
+        "id": "A",
+        "label": "A",
+        "text": "All three expenses are fully deductible as ordinary and necessary business expenses.",
+        "isCorrect": false
+      },
+      {
+        "id": "B",
+        "label": "B",
+        "text": "Advertising and reasonable wages may be deductible, but penalties paid to a government agency are generally nondeductible.",
+        "isCorrect": true
+      },
+      {
+        "id": "C",
+        "label": "C",
+        "text": "Penalties are deductible only if they do not exceed $5,000 per year.",
+        "isCorrect": false
+      },
+      {
+        "id": "D",
+        "label": "D",
+        "text": "Wages paid to a family member are never deductible, regardless of services performed.",
+        "isCorrect": false
+      }
+    ],
+    "correctOptionId": "B",
+    "explanation": "Ordinary and necessary advertising expenses and reasonable wages for actual services are generally deductible. Fines and penalties paid to a government for violating the law are generally nondeductible.",
+    "difficulty": "EASY",
+    "source": "BUILT_IN",
+    "tags": ["business deductions", "penalties", "reasonable compensation"],
+    "createdAt": "2025-11-27T00:00:00.000Z"
+  }
+]

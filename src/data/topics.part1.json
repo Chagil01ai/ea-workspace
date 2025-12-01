@@ -1,0 +1,47 @@
+[
+  {
+    "id": "P1-FILING-STATUS",
+    "part": "PART1_INDIVIDUALS",
+    "code": "P1-01",
+    "name": "Filing Status",
+    "description": "Rules for determining filing status, including married, considered unmarried, and special situations.",
+    "order": 1,
+    "weightPercent": 10
+  },
+  {
+    "id": "P1-DEPENDENTS",
+    "part": "PART1_INDIVIDUALS",
+    "code": "P1-02",
+    "name": "Dependents",
+    "description": "Qualifying child and qualifying relative tests, support, and residency rules.",
+    "order": 2,
+    "weightPercent": 10
+  },
+  {
+    "id": "P1-GROSS-INCOME",
+    "part": "PART1_INDIVIDUALS",
+    "code": "P1-03",
+    "name": "Gross Income",
+    "description": "Taxable vs excludable items of income for individuals.",
+    "order": 3,
+    "weightPercent": 20
+  },
+  {
+    "id": "P1-DEDUCTIONS",
+    "part": "PART1_INDIVIDUALS",
+    "code": "P1-04",
+    "name": "Deductions",
+    "description": "Standard vs itemized deductions and key itemized deduction categories.",
+    "order": 4,
+    "weightPercent": 25
+  },
+  {
+    "id": "P1-CREDITS",
+    "part": "PART1_INDIVIDUALS",
+    "code": "P1-05",
+    "name": "Credits",
+    "description": "Major individual credits, including child and dependent care credits.",
+    "order": 5,
+    "weightPercent": 20
+  }
+]

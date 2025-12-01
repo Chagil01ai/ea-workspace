@@ -1,0 +1,47 @@
+[
+  {
+    "id": "P3-REPRESENTATION-BASICS",
+    "part": "PART3_REPRESENTATION",
+    "code": "P3-01",
+    "name": "Representation Basics",
+    "description": "Authority to represent taxpayers before the IRS, including powers of attorney.",
+    "order": 1,
+    "weightPercent": 15
+  },
+  {
+    "id": "P3-DUE-DILIGENCE",
+    "part": "PART3_REPRESENTATION",
+    "code": "P3-02",
+    "name": "Due Diligence and Preparer Responsibilities",
+    "description": "Preparer conduct, due diligence, and reliance on information furnished by the taxpayer.",
+    "order": 2,
+    "weightPercent": 20
+  },
+  {
+    "id": "P3-PENALTIES",
+    "part": "PART3_REPRESENTATION",
+    "code": "P3-03",
+    "name": "Penalties",
+    "description": "Preparer penalties and other sanctions related to improper positions and conduct.",
+    "order": 3,
+    "weightPercent": 20
+  },
+  {
+    "id": "P3-COLLECTIONS",
+    "part": "PART3_REPRESENTATION",
+    "code": "P3-04",
+    "name": "Collections",
+    "description": "Collection alternatives, installment agreements, and taxpayer options.",
+    "order": 4,
+    "weightPercent": 20
+  },
+  {
+    "id": "P3-PRACTICE-LIMITATIONS",
+    "part": "PART3_REPRESENTATION",
+    "code": "P3-05",
+    "name": "Practice Limitations and Conflicts",
+    "description": "Conflicts of interest and other practice limitations under Circular 230.",
+    "order": 5,
+    "weightPercent": 15
+  }
+]

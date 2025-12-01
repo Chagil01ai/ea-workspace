@@ -1,0 +1,47 @@
+[
+  {
+    "id": "P2-ENTITY-CHOICE",
+    "part": "PART2_BUSINESS",
+    "code": "P2-01",
+    "name": "Business Entity Types",
+    "description": "Overview of sole proprietorships, partnerships, corporations, and S corporations.",
+    "order": 1,
+    "weightPercent": 10
+  },
+  {
+    "id": "P2-DEPRECIATION",
+    "part": "PART2_BUSINESS",
+    "code": "P2-02",
+    "name": "Depreciation and Cost Recovery",
+    "description": "MACRS, conventions, and related depreciation rules for business assets.",
+    "order": 2,
+    "weightPercent": 15
+  },
+  {
+    "id": "P2-PARTNERSHIPS",
+    "part": "PART2_BUSINESS",
+    "code": "P2-03",
+    "name": "Partnerships",
+    "description": "Basics of partnership formation, contributions, and partner basis.",
+    "order": 3,
+    "weightPercent": 15
+  },
+  {
+    "id": "P2-SCORP",
+    "part": "PART2_BUSINESS",
+    "code": "P2-04",
+    "name": "S Corporations",
+    "description": "Shareholder basis, distributions, and common adjustments.",
+    "order": 4,
+    "weightPercent": 15
+  },
+  {
+    "id": "P2-BUSINESS-DEDUCTIONS",
+    "part": "PART2_BUSINESS",
+    "code": "P2-05",
+    "name": "Business Deductions",
+    "description": "Ordinary and necessary business expenses, including limitations and nondeductible items.",
+    "order": 5,
+    "weightPercent": 20
+  }
+]
