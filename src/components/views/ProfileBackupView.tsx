@@ -8,10 +8,12 @@ import {
   importProfileSnapshot,
   type EaProfileSnapshot,
 } from "../../store/profileStore";
+import { useAuth } from "../../context/AuthContext";
 
 type ImportMode = "merge" | "replace";
 
 const ProfileBackupView: React.FC = () => {
+  const { user, loading, signInWithEmail, signUpWithEmail, signOut } = useAuth();
   const [importStatus, setImportStatus] = useState<string | null>(null);
   const [importMode, setImportMode] = useState<ImportMode>("merge");
 
@@ -85,6 +87,42 @@ const ProfileBackupView: React.FC = () => {
   return (
     <div className="card bg-base-200/60 border border-slate-800 shadow-xl">
       <div className="card-body p-4 md:p-5 space-y-4">
+        {/* Auth panel */}
+        <div className="mb-4 rounded-2xl border border-slate-700 bg-slate-900/80 p-4 space-y-2">
+          <h2 className="text-sm md:text-base font-semibold text-slate-100">
+            🔐 Account
+          </h2>
+
+          {loading ? (
+            <p className="text-xs md:text-sm text-slate-400">
+              Checking sign-in status…
+            </p>
+          ) : user ? (
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+              <div className="text-xs md:text-sm text-slate-300">
+                Signed in as{" "}
+                <span className="font-semibold">
+                  {user.email ?? "EA Workspace user"}
+                </span>
+              </div>
+              <button
+                type="button"
+                className="btn btn-xs md:btn-sm btn-outline btn-error"
+                onClick={() => {
+                  void signOut();
+                }}
+              >
+                Sign out
+              </button>
+            </div>
+          ) : (
+            <AuthForm
+              onSignIn={signInWithEmail}
+              onSignUp={signUpWithEmail}
+            />
+          )}
+        </div>
+        
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
           <div className="space-y-1">
@@ -199,5 +237,120 @@ const ProfileBackupView: React.FC = () => {
     </div>
   );
 };
+
+interface AuthFormProps {
+  onSignIn: (email: string, password: string) => Promise<void>;
+  onSignUp: (email: string, password: string) => Promise<void>;
+}
+
+const AuthForm: React.FC<AuthFormProps> = ({ onSignIn, onSignUp }) => {
+  const [email, setEmail] = React.useState("");
+  const [password, setPassword] = React.useState("");
+  const [mode, setMode] = React.useState<"signin" | "signup">("signin");
+  const [status, setStatus] = React.useState<string | null>(null);
+  const [submitting, setSubmitting] = React.useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitting(true);
+    setStatus(null);
+    try {
+      if (mode === "signin") {
+        await onSignIn(email, password);
+        setStatus("Signed in successfully.");
+      } else {
+        await onSignUp(email, password);
+        setStatus("Sign-up successful. Check your email for confirmation if required.");
+      }
+    } catch (err: any) {
+      setStatus(err.message ?? "Authentication error.");
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  return (
+    <form
+      className="grid gap-2 text-xs md:text-sm"
+      onSubmit={handleSubmit}
+    >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <label className="form-control">
+          <span className="label-text text-xs text-slate-300 mb-1">
+            Email
+          </span>
+          <input
+            type="email"
+            className="input input-xs md:input-sm bg-slate-950 border-slate-700 text-xs md:text-sm"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            placeholder="you@example.com"
+            title="Email address for your EA Workspace account"
+          />
+        </label>
+        <label className="form-control">
+          <span className="label-text text-xs text-slate-300 mb-1">
+            Password
+          </span>
+          <input
+            type="password"
+            className="input input-xs md:input-sm bg-slate-950 border-slate-700 text-xs md:text-sm"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+            placeholder="••••••••"
+            title="Password for your EA Workspace account"
+          />
+        </label>
+      </div>
+
+      <div className="flex flex-wrap gap-2 items-center justify-between mt-1">
+        <div className="join">
+          <button
+            type="button"
+            className={`btn btn-xs md:btn-sm join-item ${
+              mode === "signin"
+                ? "btn-primary"
+                : "btn-outline border-slate-600"
+            }`}
+            onClick={() => setMode("signin")}
+          >
+            Sign in
+          </button>
+          <button
+            type="button"
+            className={`btn btn-xs md:btn-sm join-item ${
+              mode === "signup"
+                ? "btn-accent"
+                : "btn-outline border-slate-600"
+            }`}
+            onClick={() => setMode("signup")}
+          >
+            Sign up
+          </button>
+        </div>
+        <button
+          type="submit"
+          className="btn btn-xs md:btn-sm btn-success"
+          disabled={submitting}
+        >
+          {submitting
+            ? "Working..."
+            : mode === "signin"
+            ? "Sign in"
+            : "Create account"}
+        </button>
+      </div>
+
+      {status && (
+        <p className="text-[0.7rem] md:text-xs text-slate-300 mt-1">
+          {status}
+        </p>
+      )}
+    </form>
+  );
+};
+
 
 export default ProfileBackupView;
